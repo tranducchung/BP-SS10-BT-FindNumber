@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VHTM</title>
+</head>
+<body>
+<script>
+    let secretNumber = 82;
+    for (let i =0;;i++){
+        let enterNumber = parseInt(prompt("Input Number"));
+        if (enterNumber < secretNumber) {
+            alert("Too low")
+        } else if (enterNumber > secretNumber) {
+            alert("Too hight")
+        } else {
+            alert("Correct");
+            break;
+        }
+    }
+</script>
+</body>
+</html>
